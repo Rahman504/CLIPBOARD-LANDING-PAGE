@@ -1,0 +1,168 @@
+* {
+	font-family: 'Bai Jamjuree', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background: url(images/bg-header-desktop.png) no-repeat;
+}
+.section-heading {
+	color: hsl(210, 10%, 33%);
+}
+.section-description {
+	color: hsl(201, 11%, 66%);
+	font-weight: 600;
+	font-size: .9em;
+}
+.heading-container {
+	text-align: center;
+	margin: 50px auto;
+	max-width: 630px;
+	padding: 10px;
+}
+
+.center {
+	text-align: center;
+}
+/* Header start */
+header {
+	text-align: center;
+	margin: 80px auto;
+	max-width: 600px;
+}
+		
+header > img {
+	width: 80px;
+}
+header > *, section.snippets > div > * {
+	margin: 15px 0px;
+}
+header > h1 {
+	color: hsl(210, 10%, 33%);
+}
+header > p, section.snippets > div:first-child p {
+	color:  hsl(201, 11%, 66%);
+	font-weight: 600;
+	font-size: .9rem;
+}
+.btn {
+	min-width: 100px;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 20px;
+	margin: 15px 5px;
+	border: none;
+	font-family: 'Bai Jamjuree', sans-serif;
+	cursor: pointer;
+}
+.btn.cyan {
+	background-color: hsl(171, 66%, 44%);
+}
+.btn.blue {
+	background-color: hsl(233, 100%, 69%);
+}
+/* Header ends */
+
+
+/* Main start */
+
+/*snippets section*/
+section.snippets > div:first-child, section.clipboard-access > div:first-child {
+	text-align: center;
+	margin: 50px auto;
+	max-width: 630px;
+	padding: 10px;
+}
+section.snippets > div:first-child h2, section.snippets > div:first-child h3 {
+	color: hsl(210, 10%, 33%);
+}
+
+section.snippets > div:last-child > * {
+	float: left;
+	width: 50%;
+}
+section.snippets > div:last-child > img {
+	margin-left: -25px;
+}
+section.snippets > div:last-child::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+section.snippets > div:last-child > div {
+	padding-left: 100px;
+	
+}
+section.snippets > div:last-child > div article {
+	margin: 50px 0px;
+	max-width: 350px;
+}
+section.snippets > div:last-child > div article p {
+	color: hsl(201, 11%, 66%);
+	font-weight: 600;
+	font-size: .8em;
+	margin: 10px 0px;
+}
+
+/*clipboard section*/
+.clipboard-access, section.clients {
+	margin: 50px 0px;
+}
+.clipboard-access img {
+	width: 60%;
+}
+.float-container > * {
+	float: left;
+}
+.float-container::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+section.workflow .float-container {
+	width: 85%;
+	margin: auto;
+}
+section.workflow .float-container article {
+	width: 31%;
+	margin: 10px;
+}
+section.workflow .float-container article > * {
+	margin: 10px 0px;
+}
+
+/* clients section */
+section.clients img {
+	margin: 10px 30px;
+}
+/*footer*/
+footer {
+	background-color: #eee;
+	padding: 20px 5px;
+	margin-top: 50px;
+}
+footer > div.float-container {
+	width: 80%;
+}
+footer > div.float-container > div {
+	width: 70%;
+}
+footer > div.float-container > .img {
+	width: 30%;
+}
+footer > div.float-container > .img img {
+	width: 60px;
+}
+footer > div.float-container ul {
+	list-style-type: none;	
+}
+footer > div.float-container ul li a {
+	text-decoration: none;
+	color: hsl(201, 11%, 66%);
+	font-weight: 600;
+	font-size: .9em;
+	display: inline-block;
+	margin: 15px;
+}
